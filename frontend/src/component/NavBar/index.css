@@ -1,0 +1,42 @@
+.nav-container{
+    height: 120px;
+    max-width: 100vw;
+    background-color: rgba(46, 38, 38, 0.781);
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+    line-height: 120px;
+}
+.nav-bar ul {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+  
+}
+.nav-bar ul li{
+    color: whitesmoke;
+    margin: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 4px 1px 10px yellowgreen;
+    line-height: 60px;
+}
+.icon{
+    height: 100px;
+    width: 130px;
+    padding: 10px;
+}
+.btn-logout{
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+    color: bisque;
+    background-color: black;
+    border: 1px solid limegreen;
+    margin-right:20px;
+}

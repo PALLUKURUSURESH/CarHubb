@@ -1,0 +1,123 @@
+/* Main container for the EMI Calculator */
+.max-w-4xl {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 48px 16px;
+    background-color: #f9fafb;
+  }
+  
+  /* Calculator card styling */
+  .bg-white {
+    background-color: #ffffff;
+  }
+  .rounded-2xl {
+    border-radius: 1.5rem;
+  }
+  .shadow-lg {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  .p-8 {
+    padding: 32px;
+  }
+  
+  /* Header styling */
+  .flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  .w-8 {
+    width: 32px;
+  }
+  .h-8 {
+    height: 32px;
+  }
+  .text-blue-600 {
+    color: #2563eb; /* Blue color for icon */
+  }
+  .mr-3 {
+    margin-right: 12px;
+  }
+  .text-3xl {
+    font-size: 1.875rem;
+  }
+  .font-bold {
+    font-weight: 700;
+  }
+  .text-gray-900 {
+    color: #1f2937; /* Dark gray color for header */
+  }
+  
+  /* Label styling */
+  .block {
+    display: block;
+  }
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  .font-medium {
+    font-weight: 500;
+  }
+  .text-gray-700 {
+    color: #4b5563;
+  }
+  .mb-2 {
+    margin-bottom: 8px;
+  }
+  
+  /* Range slider styling */
+  input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background-color: #e5e7eb; /* Light gray track */
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background-color: #2563eb; /* Blue thumb */
+    border-radius: 50%;
+  }
+  input[type="range"]::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    background-color: #2563eb;
+    border-radius: 50%;
+  }
+  
+  /* Amount, Interest, and Tenure display styling */
+  .mt-2 {
+    margin-top: 8px;
+  }
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  /* EMI display styling */
+  .mt-8 {
+    margin-top: 32px;
+  }
+  .p-6 {
+    padding: 24px;
+  }
+  .bg-blue-50 {
+    background-color: #eff6ff; /* Light blue background for EMI display */
+  }
+  .rounded-xl {
+    border-radius: 1rem;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-4xl {
+    font-size: 2.25rem;
+  }
+  
